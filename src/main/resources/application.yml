@@ -2,7 +2,7 @@
 spring:
   datasource:
     username: root
-    password:
+    password: 445221
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql:///jdbcTest?serverTimezone=GMT%2B8
     initialSize: 5
@@ -27,7 +27,7 @@ spring:
  # redis:
    # host: 127.0.0.1
   redis:
-    url:
+    url: redis://user:445221@192.168.24.130:6379
     #sentinel:配置
      # master:
 logging:
